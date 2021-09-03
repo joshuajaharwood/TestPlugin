@@ -1,0 +1,11 @@
+name: TestPlugin
+version: '${project.version}'
+main: com.joshuaharwood.testplugin.TestPlugin
+api-version: 1.17
+authors: [ Joshua J. A. Harwood ]
+description: A test Paper plugin.
+commands:
+  testCommand:
+    description: A test command.
+    usage: /<command>
+    permission: testplugin.testcommand
